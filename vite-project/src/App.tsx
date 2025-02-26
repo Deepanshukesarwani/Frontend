@@ -1,16 +1,32 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import './App.css'
+import Footer from "./Components/footer";
+import HackathonSection from "./Components/Hackathon";
+import HeroSection from "./Components/Hero";
+import Navbar from "./Components/Navbar";
+import ScrollingLogos from "./Components/ScrollingLogos";
+
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-<>
-<h1 className=' text-amber-900'>hello bhaiyo</h1>
-</>
-  )
+    <>
+    <Navbar/>
+    <HeroSection/>
+    <div className="flex flex-col items-center">
+      <ScrollingLogos />
+    </div>
+    <div>
+      <HackathonSection />
+    </div>
+    <div className="flex flex-col items-center">
+      <ScrollingLogos />
+    </div>
+    <div>
+      <Footer/>
+    </div>
+      
+    </>
+  );
 }
 
-export default App
+export default App;
