@@ -1,4 +1,4 @@
-// import MenuSection from "./menuSection";
+
 import videoUrl from "/bgVideo.mp4";
 const imgSingularity =
   "https://s3-alpha-sig.figma.com/img/5205/8608/4ff18847d83ad83389f4cf79d0d06b51?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=gJYseYSLZ9vk4WmefY4YpJ32HtERH2kEd-bxvGAkHgB0AS-h6n-mhaf~ZyfmdVJOtOprdifaClYki8gCCH2T4FzDRNUewol9oAVHYC1mk3sXOg1-oav6ol1c494~2M0U4-05X1-OXoywCN97T4fHXGcGbmIsfTgHMRkrBPT8VWukWfXpbySgfPUHEEHMi~Rxy028nVW6AN3hnT~kUHq-sM2UPCRrId6f6k~xAolIWBtStWOzB4RoDHkvYmMXM3GUfTvx1yXaL1HQn5sekLn9bINzMhlnjqLjQVEURer0BVSoDNjve86iwBw2VmoYtjOb7-N2GiX50c~ovUbi5yYVGA__";

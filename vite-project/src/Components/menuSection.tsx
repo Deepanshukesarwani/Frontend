@@ -24,16 +24,6 @@ function MenuSection() {
      <ButtonStyle/>
      <ButtonStyle/>
     </motion.div>
-    // <motion.div className=""
-    // animate={{ top: scrolled ? "0%" : "5rem" }}
-    // >
-    //  <ButtonStyle/>
-    //  <ButtonStyle/>
-    //  <ButtonStyle/>
-    //  <ButtonStyle/>
-    //  <ButtonStyle/>
-    //  <ButtonStyle/>
-    // </motion.div>
   )
 }
 
