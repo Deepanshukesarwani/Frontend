@@ -74,6 +74,21 @@ button:focus-visible {
     transform: translateX(-50%);
   }
 }
+/* .clip-custom-upperShape {
+  clip-path: polygon(15% 0, 100% 0, 100% 12%, 25% 12%);
+}
+
+.clip-custom-lowerShape {
+  clip-path: polygon(100% 78%, 64% 100%, 100% 100%);
+} */
+
+@layer utilities {
+  .clip-custom {
+    clip-path: polygon(0% 0%, 90% 0%, 100% 20%, 100% 100%, 10% 100%, 0% 80%);
+    border: 2px solid #a855f7;
+    position: relative;
+  }
+}
 
 .animate-scroll {
   display: flex;
