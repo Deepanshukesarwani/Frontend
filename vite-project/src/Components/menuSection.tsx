@@ -14,15 +14,15 @@ function MenuSection() {
     };
   }, []);
   return (
-    <motion.div className=" fixed top-[5rem]   z-50 border-black overflow-hidden rounded-[1rem] bg-black shadow-md transition-all duration-300 flex items-center justify-center gap-4 w-[70%]"
+    <motion.div className=" fixed top-[5rem] z-50 border-black overflow-hidden rounded-[1rem] bg-black shadow-md transition-all duration-300 flex items-center justify-center gap-4 w-[70%]"
     animate={{ top: scrolled ? "0%" : "5rem" }}
     >
+     {/* <ButtonStyle/>
      <ButtonStyle/>
      <ButtonStyle/>
      <ButtonStyle/>
      <ButtonStyle/>
-     <ButtonStyle/>
-     <ButtonStyle/>
+     <ButtonStyle/> */}
     </motion.div>
   )
 }

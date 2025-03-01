@@ -6,38 +6,35 @@ import MenuSection from "./Components/menuSection";
 import Navbar from "./Components/Navbar";
 import ScrollingLogos from "./Components/ScrollingLogos";
 import Hackindiaimg from "/hackindia.png";
-
+import bottomBoder from "/public/bottomBordere.svg";
 function App() {
   return (
     <>
-      <div className="  max-w-[100vw]">
+      <div className="h-screen max-w-[100vw] bg-black">
         <Navbar />
-        <div className="flex  items-center gap-8 px-6 bg-black h-[4rem]">
-          {/* Logo */}
-          <div className="w-[15%] bg-black">
-            <img src={Hackindiaimg} alt="HackIndia Logo" className="h-10 w-[100%] object-contain" />
-          </div>
-
-          {/* Menu Section */}
-          <div className="">
-          <MenuSection />
-          </div>
+        <div>
+          <img
+            src={bottomBoder} // Place the file inside "public/" and reference it here
+            alt="Navbar Border"
+            className="w-full"
+          />
         </div>
-        <div className=" absolute">
+        {/* HERO SECTION */}
+        <section>
           <HeroSection />
-          <div className="flex flex-col items-center w-[100%]">
-            <ScrollingLogos />
-          </div>
-          <div>
-            <HackathonSection />
-          </div>
-          <div className="flex flex-col items-center w-[100%]">
-            <ScrollingLogos />
-          </div>
-          <div className="w-[100%]">
-            <Footer />
-          </div>
-        </div>
+        </section>
+        <section>
+          <ScrollingLogos />
+        </section>
+        <section>
+          <HackathonSection />
+        </section>
+        <section>
+          <ScrollingLogos />
+        </section>
+        <section>
+          <Footer />
+        </section>
       </div>
     </>
   );

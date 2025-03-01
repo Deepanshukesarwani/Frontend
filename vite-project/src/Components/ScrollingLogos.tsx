@@ -2,7 +2,7 @@ import { logos } from "../data/logos";
 
 const ScrollingLogos = () => {
   return (
-    <div className="relative w-full overflow-hidden bg-gray-100 py-4 w-[100%]">
+    <div className="relative  overflow-hidden bg-gray-100 py-4 w-[100%]">
       {/* Scrolling Wrapper */}
       <div className="flex gap-8 animate-scroll whitespace-nowrap">
         {logos.map((logo, index) => (
