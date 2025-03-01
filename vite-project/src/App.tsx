@@ -20,7 +20,7 @@ function App() {
           />
         </div>
         {/* HERO SECTION */}
-        <section>
+        <section className="bg-red-200 ">
           <HeroSection />
         </section>
         <section>

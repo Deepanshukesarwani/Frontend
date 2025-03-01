@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-// import ButtonStyle from "./Button";
+import ButtonStyle from "./Button";
 
 function MenuSection() {
     const [scrolled, setScrolled] = useState(false);
@@ -14,15 +14,13 @@ function MenuSection() {
     };
   }, []);
   return (
-    <motion.div className=" fixed top-[5rem] z-50 border-black overflow-hidden rounded-[1rem] bg-black shadow-md transition-all duration-300 flex items-center justify-center gap-4 w-[70%]"
+    <motion.div className=" fixed top-[5rem]  z-50  border-black overflow-hidden rounded-[1rem] bg-black shadow-md transition-all duration-300 flex items-center justify-center gap-5 w-[70%]"
     animate={{ top: scrolled ? "0%" : "5rem" }}
     >
-     {/* <ButtonStyle/>
-     <ButtonStyle/>
-     <ButtonStyle/>
-     <ButtonStyle/>
-     <ButtonStyle/>
-     <ButtonStyle/> */}
+      <ButtonStyle name="Home" />
+      <ButtonStyle name="Home" />
+      <ButtonStyle name="Home" />
+      <ButtonStyle name="Home" />
     </motion.div>
   )
 }
