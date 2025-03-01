@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import ButtonStyle from "./Button";
+// import ButtonStyle from "./Button";
 
 function MenuSection() {
     const [scrolled, setScrolled] = useState(false);

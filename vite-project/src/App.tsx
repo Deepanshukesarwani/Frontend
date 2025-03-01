@@ -2,10 +2,10 @@
 import Footer from "./Components/footer";
 import HackathonSection from "./Components/Hackathon";
 import HeroSection from "./Components/Hero";
-import MenuSection from "./Components/menuSection";
+
 import Navbar from "./Components/Navbar";
 import ScrollingLogos from "./Components/ScrollingLogos";
-import Hackindiaimg from "/hackindia.png";
+
 import bottomBoder from "/public/bottomBordere.svg";
 function App() {
   return (
